@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              green_main: '#da373d',
+              black_main: '#191A23',
+              grey_main: '#F3F3F3'
+            },
+            fontFamily: {
+              sans: ['"SpaceGrotesk-Regular"', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+    <title>Positivus</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between py-6 px-10">
+        <div class="justify-center items-center flex">
+          <a href="#"><img width="170px" src="/Assets/Logo.png" alt="" /></a>
+        </div>
+        <div class="flex items-center">
+          <ul>
+            <li>
+              <a class="mr-7" href="#">About us</a>
+              <a class="mr-7" href="#">Services</a>
+              <a class="mr-7" href="#">UseCase</a>
+              <a class="mr-7" href="#">Blog</a>
+              <a class="mr-7" href="#">Pricing</a>
+            </li>
+          </ul>
+          <button class="py-4 px-6 rounded-xl border border-gray-900">
+            <a href="#">Request demo</a>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="grid grid-cols-2 gap-4 justify-center items-center">
+        <div class="px-16 flex-col">
+
+            <h1 class="text-black text-6xl font-medium pr-9 pb-9">
+              Navigating the digital landscape for success
+            </h1>
+
+            <p class="text-black text-xl font-normal pb-9 pr-36">
+              Our digital marketing agency helps businesses grow and succeed
+              online through a range of services including SEO, PPC, social
+              media marketing, and content creation.
+            </p>
+
+          <button class="bg-black_main text-white py-4 px-4 rounded-lg">
+            <a href="#">Book a consultation</a>
+          </button>
+        </div>
+        <div class="h-screen flex justify-center items-center">
+          <img src="/Assets/Illustration.png" alt="" />
+        </div>
+        </div>
+    </section>
+  </body>
+</html>
